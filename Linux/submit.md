@@ -122,9 +122,8 @@ du {PATH_TO_DIRECTORY}
 ![Screenshot from 2022-05-30 17-09-53](https://user-images.githubusercontent.com/63574039/170970383-96791edd-88c7-400d-b2bb-174d9a05caf5.png)
   
   
-  
-  <div id='2'></div>
-###  2. Check Partitions
+<div id='2'></div>
+### 2. Check Partitions
 
 The `fdisk` command is used for controlling the disk partition table and making changes to it and this is a list of some of options provided by it : </b>
 - Organize space for new drives.
