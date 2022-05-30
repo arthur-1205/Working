@@ -124,6 +124,7 @@ du {PATH_TO_DIRECTORY}
   
   
 <div id='2'></div>
+  
 ### 2. Check Partitions
 
 The `fdisk` command is used for controlling the disk partition table and making changes to it and this is a list of some of options provided by it : </b>
