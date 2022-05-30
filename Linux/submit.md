@@ -13,7 +13,8 @@
   
   
 <div id='1'></div>
-### 1. Check Diskspace
+###  1. Check Diskspace
+  
 ## - `df` command
 
 The `df` command in Linux/Unix is used to display information related to file systems about total space and available space.
