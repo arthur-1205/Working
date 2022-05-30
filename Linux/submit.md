@@ -9,7 +9,7 @@
 5. <a href='#5'> List Files and Directories
 5. <a href='#6'> Actions with Files/Directories(move/copy,....)        
 6. <a href='#7'> Basic and advanced decentralization
-
+...
   
   
 <div id='1'></div>
