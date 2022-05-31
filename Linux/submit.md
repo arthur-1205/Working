@@ -408,11 +408,17 @@ It normally lists the files and directories in ascending alphabetical order.
 ```
 ls
 ```
+![image]
 
 2. To show the files and directory inside a specific Directory:
 
 ```
 ls {Directory_Path}
 ```
+![image]
+ 
 
+ <div id='6'><div>
+   
+   #6
 
