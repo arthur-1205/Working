@@ -393,7 +393,26 @@ kill pid
 ![](src/htop_user.png)  
 
   
-
- 
+<div id='5'><div>
   
+  # 5. List File and Directory 
+ 
+  ## `ls` command
+  
+The `ls` command lets you see the files and directories inside a specific directory *(current working directory by default)*.
+It normally lists the files and directories in ascending alphabetical order.
+  ### Examples:
+
+1. To show the files inside your current working directory:
+
+```
+ls
+```
+
+2. To show the files and directory inside a specific Directory:
+
+```
+ls {Directory_Path}
+```
+
 
