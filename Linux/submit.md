@@ -266,8 +266,10 @@ Earlier a default sized packets were sent to a host but we can send light and he
 -s option. 
 
 ```
-ping -s 40 -c 5 google.com
+ping -s 30 -c 4 google.com
 ```
+![image](src/ping_size.png)  
+
 
 4. Changing the time interval: 
 By default ping wait for 1 sec to send next packet we can change this time by using -i option.  
