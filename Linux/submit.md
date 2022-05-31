@@ -377,18 +377,20 @@ kill pid
   
   1. Display dynamic real-time information about running processes. An enhanced version of `top`.
 
-```
-htop
-```
-    ![](src/htop.png)
+    ```
+    htop
+    ```
+  
+  ![](src/htop.png)
   
   2. displaying processes owned by a specific user:
 
-```
-htop --user {user_name}
-htop -u {user_name}
-```
-    ![](src/htop_user.png)  
+    ```
+    htop --user {user_name}
+    htop -u {user_name}
+    ```
+  
+![](src/htop_user.png)  
 
   
 
