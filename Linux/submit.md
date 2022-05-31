@@ -307,6 +307,31 @@ ifconfig eth0 up
 ```
 
   
+<div id='4'><div>
+ # Process Monitor
+ ## `ps` command 
+The `ps` command is a traditional Linux command to lists running processes. The following command shows all processes running on your Linux based server or system:
+```
+  ps -aux
+```
+![image](src/ps_aux.png)
+ 
+The process ID (PID) is essential to kill or control process on Linux. 
+  
+  ## `pgrep` command
+  `pgrep` is a command-line utility that allows you to find the process IDs of a running program based on given criteria. It can be a full or partial process name, a user running the process, or other attributes.
+ 
+  ### Syntax 
+  ```
+  pgrep [OPTIONS] <PATTERN>
+  ```
+  
+  ### Example
+  When invoked without any option, `pgrep` displays the PIDs of all running programs that match with the given name. For example, to find the PID of the SSH server, you would run:
 
+![](src/pgrep.png)
 
+  The `-l` option tells `pgrep` to show the process name along with its ID:
+  
+![](src/pgrep_l.png)
   
