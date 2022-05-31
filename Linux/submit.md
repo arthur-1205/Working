@@ -370,3 +370,28 @@ kill pid
 ```
 ![](src/kill_pid.png)
   
+  ## `htop` command
+  `htop` command in Linux system is a command line utility that allows the user to interactively monitor the system’s vital resources or server’s processes in real time. `htop` is a newer program compared to `top` command, and it offers many improvements over `top` command. `htop` supports mouse operation, uses color in its output and gives visual indications about processor, memory and swap usage. `htop` also prints full command lines for processes and allows one to scroll both vertically and horizontally for processes and command lines respectively.
+  
+  ### Examples:
+  
+  1. Display dynamic real-time information about running processes. An enhanced version of `top`.
+
+```
+htop
+```
+    ![](src/htop.png)
+  
+  2. displaying processes owned by a specific user:
+
+```
+htop --user {user_name}
+htop -u {user_name}
+```
+    ![](src/htop_user.png)  
+
+  
+
+ 
+  
+
