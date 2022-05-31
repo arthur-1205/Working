@@ -337,3 +337,34 @@ The process ID (PID) is essential to kill or control process on Linux.
   
 ![](src/pgrep_l.png)
   
+ ### Another command to list process with an easy way for us to follow is `pstree` 
+ To list process with PIDs you use
+  ``` 
+  pstree -p
+  ```
+  ![](src/pstree.png)
+ 
+  
+ ## `kill` command
+  `kill` command in Linux (located in /bin/kill), is a built-in command which is used to terminate processes manually. The `kill` command sends a signal to a process which terminates the process. If the user doesn’t specify any signal which is to be sent along with kill command then default _TERM_ signal is sent that terminates the process.
+    
+### Syntax
+
+```
+kill [OPTIONS] [PID]...
+```
+  
+###  Examples:
+1. To display all the available signals you can use below command option:
+
+```
+kill -l
+```
+
+2. To show how to use a _PID_ with the _kill_ command.
+
+```
+kill pid
+```
+![](src/kill_pid.png)
+  
