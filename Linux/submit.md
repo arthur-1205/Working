@@ -360,6 +360,8 @@ kill [OPTIONS] [PID]...
 ```
 kill -l
 ```
+![](src/kill_signal.png)
+  
 
 2. To show how to use a _PID_ with the _kill_ command.
 
