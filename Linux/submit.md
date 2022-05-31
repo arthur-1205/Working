@@ -245,26 +245,23 @@ ping [option] [hostname] or [IP address]
 
 ### Examples:
 
-1. To get ping version installed on your system. 
+1. To check whether a remote host is up, in this case, google.com, type in your terminal:
 
-```
-sudo ping -v
-```
-
-2. To check whether a remote host is up, in this case, google.com, type in your terminal:
-
-```
+ ```
 ping google.com
 ```
-
-3. Controlling the number of pings: 
+![](src/ping_google.png)
+  
+2. Controlling the number of pings: 
 Earlier we did not define the number of packets to send to the server/host by using -c option we can do so. 
 
  ```
 ping -c 5 google.com
 ```
+![image](src/ping_c.png)
 
-4. Controlling the number of pings: 
+
+3. Controlling the number of pings: 
 Earlier a default sized packets were sent to a host but we can send light and heavy packet by using 
 -s option. 
 
@@ -272,7 +269,7 @@ Earlier a default sized packets were sent to a host but we can send light and he
 ping -s 40 -c 5 google.com
 ```
 
-5. Changing the time interval: 
+4. Changing the time interval: 
 By default ping wait for 1 sec to send next packet we can change this time by using -i option.  
 
 ```
